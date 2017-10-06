@@ -1,0 +1,130 @@
+html, body {
+  background-color: #00664d;
+  font-family: 'Hind', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.none {
+  display: none;
+}
+
+.registerArea {
+  background-color: #00664d;
+  color: #fff;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+}
+
+.registerAreaLiner {
+  width: 44em;
+}
+
+.registerAreaForm {
+  flex-direction: column;
+}
+
+.registerAreaForm form {
+  flex-direction: column;
+  border-color: #00cc99;
+}
+
+.registerAreaForm form input {
+  background-color: #00664d;
+  border-color: #00cc99;
+  color: #00cc99;
+}
+
+.registerArea h1 {
+  font-size: 2.6em;
+  margin: 0;
+}
+
+.registerArea p {
+  font-size: 1.2em;
+}
+
+.registerAreaForm {
+  flex-direction: column;
+}
+
+.registerForm {
+  margin: 1.6em;
+}
+
+.confirmation {
+  display: none;
+}
+
+.registerArea .sub-heading {
+  font-size: 1.6em;
+  margin: 0;
+}
+
+.registerArea .register-button,
+.loginArea .login-button {
+  background-color: #00cc99;
+  cursor: pointer;
+  font-size: 1.6em;
+  height: 0.8em;
+  padding: 0.6em;
+  width: 8.8em;
+}
+
+.loginArea .login-button {
+  background-color: #fff;
+  margin: 1em 0.8em;
+  width: 4.8em;
+}
+
+.loginArea {
+  background-color: #00cc99;
+  color: #00664d;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  top: 100vh;
+  width: 40%;
+}
+
+.loginArea form {
+  flex-direction: column;
+}
+
+.input {
+  background-color: #00cc99;
+  border-bottom: 2px;
+  border-color: #00664d;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-top: 0px;
+  box-shadow: none;
+  color: #00664d;
+  font-size: 1.2em;
+  height: 3em;
+  margin: 0.2em;
+  padding-left: 1em;
+  width: 15em;
+}
+
+.input:focus {
+  outline: 0px;
+}
+
+.passwordResetText {
+  font-size: 1.2em;
+  cursor: pointer;
+}
